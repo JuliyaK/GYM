@@ -1,0 +1,121 @@
+/*общий блок размером 1516 на 736*/
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	width: 1516px;
+	height: 736px;
+	font-family: 'Arial Narrow', sans-serif;
+	color: white;
+}
+
+ /*блок с логотипом*/
+.blok_1 {
+	width: 337px;
+	height: 736px;
+	border-right: 4px solid dodgerblue;
+	background-color: black;
+	text-align: center;
+}
+
+.blok_1 h3 {
+	padding-top: 10px;
+	font-size: 25px;
+	font-weight: 20; 
+}
+
+.blok_1 h2 {
+	font-size: 25px;
+	font-weight: 20; 
+}
+
+/*логотип зала*/
+.logo {
+	display: block;
+	margin: auto;
+	width: 250px;
+	height: 200px;
+	text-align: center;
+}
+
+.menu {
+	padding-top: 60px;
+	font-size: 25px;
+	font-weight: 20; 
+}
+
+/*оформление пунктов меню*/
+   A:link { text-decoration: none;  }
+   A:visited { text-decoration: none; color: white;}
+
+.city {
+	padding-top: 60px;
+	font-size: 20px;
+	font-weight: 20; 
+}
+
+.address {
+	font-size: 25px;
+	font-weight: bold; 
+}
+
+.contact {
+	padding-top: 40px;
+	font-size: 20px;
+}
+
+.number {
+	font-weight: bold; 
+}
+
+/*блок с предложением*/
+.blok_2 {
+	width: 1179px;
+	height: 736px;
+	background-color: silver;
+	background-image: url(foto.jpg);
+}
+
+.all {
+	padding-top: 200px;
+	padding-left: 150px;
+}
+
+.abonement {
+	font-size: 30px;
+}
+
+.student {
+	font-size: 80px;
+	font-weight: bold;
+}
+
+.price {
+	padding-bottom: 70px;
+}
+
+.summ {
+	font-size: 70px;
+	font-weight: bold;
+}
+
+.rub {
+	font-size: 30px;
+}
+
+/*кнопка*/
+a.button {
+  display: block;
+  width:200px;
+  height: 50px;
+  padding-top: 10px;
+  font-family: inherit;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  background: dodgerblue;
+}
+
+a.button:hover {
+  background-color: steelblue;
+}
