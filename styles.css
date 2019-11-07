@@ -1,253 +1,124 @@
 /*общий блок размером 1516 на 736*/
 .container {
-
-position: relative;
-width: 1516px;
-height: 783px;
-background: #FFFFFF;
-
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	width: 1516px;
+	height: 736px;
+	font-family: 'Oswald';
+	color: white;
 }
 
-.im {
-position: absolute;
-width: 1516px;
-height: 783px;
-left: -26px;
-top: -52px;
-background: url(foto.png);
 
-}
+
  /*блок с логотипом*/
 .blok_1 {
-	position: absolute;
-	width: 327px;
-	height: 783px;
-	left: 0px;
-	top: 0px;
-	background: #000000;
-	font-family: Oswald;
-	font-style: normal;
-	color: #FFFFFF;
-	align-items: center;
-
-}
-
-/*тренажерный зал*/
-.blok_1 h3 {
-	position: absolute;
-	width: 165px;
-	height: 26px;
-	left: 83px;
-	top: 43px;
-	font-weight: 300;
-	font-size: 22px;
-	line-height: 35px;
-	display: flex;
-	align-items: center;
-
-}
-
-/*Атлетик Альянс*/
-.blok_1 h2 {
-	position: absolute;
-	width: 156.4px;
-	height: 25px;
-	left: 86.8px;
-	top: 309.05px;
-	font-weight: normal;
-	font-size: 21px;
-	line-height: 74px;
-	display: flex;
-	align-items: center;
+	width: 337px;
+	height: 736px;
+	border-right: 4px solid dodgerblue;
+	background-color: black;
 	text-align: center;
+}
+
+.blok_1 h3 {
+	padding-top: 10px;
+	font-size: 25px;
+	font-weight: 200; 
+}
+
+.blok_1 h2 {
+	font-size: 25px;
+	font-weight: 200; 
 }
 
 /*логотип зала*/
 .logo {
-	position: absolute;
-	width: 227.48px;
-	height: 214.1px;
-	left: 46.52px;
-	top: 91.39px;
-
-	background: url(logo.png);
-
+	display: block;
+	margin: auto;
+	width: 220px;
+	height: 220px;
+	text-align: center;
 }
 
 .menu {
-	font-weight: normal;
+	padding-top: 60px;
 	font-size: 25px;
-	display: flex;
-
+	font-weight: 20; 
 }
 
-.timetable {
-	position: absolute;
-	width: 111px;
-	height: 25px;
-	left: 109px;
-	top: 408px;
-	line-height: 74px;
-	font-size: 21px;
+/*оформление пунктов меню*/
+   A:link { text-decoration: none;  }
+   A:visited { text-decoration: none; color: white;}
+
+.city {
+	padding-top: 60px;
+	font-size: 20px;
+	font-weight: 20; 
 }
 
-.stocks {
-	position: absolute;
-	width: 59px;
-	height: 20px;
-	left: 135px;
-	top: 455px;
-	line-height: 35px;
-	font-size: 21px;
-}
-
-.services {
-	position: absolute;
-	width: 63px;
-	height: 22px;
-	left: 133px;
-	top: 498px;
-	line-height: 35px;
-	font-size: 21px;
-}
-
-.about_us {
-	position: absolute;
-	width: 52px;
-	height: 22px;
-	left: 139px;
-	top: 540px;
-	line-height: 35px;
-	font-size: 21px;
-}
 .address {
-	position: absolute;
-	width: 217px;
-	height: 65px;
-	left: 57px;
-	top: 625px;
-	font-weight: 300;
-	font-size: 21px;
-	line-height: 32px;
-	align-items: center;
-	text-align: center;
-
+	font-size: 25px;
+	font-weight: bold; 
 }
 
 .contact {
-	position: absolute;
-	width: 217px;
-	height: 33px;
-	left: 57px;
-	top: 713px;
-	font-weight: 300;
-	font-size: 21px;
-	line-height: 25px;
-	display: flex;
-	align-items: center;
-	text-align: center;
-	padding-left: 25px;
-
+	padding-top: 20px;
+	font-size: 20px;
 }
 
-.blok_2 {
-	position: absolute;
-	width: 1186px;
-	height: 783px;
-	left: 330px;
-	top: 0px;
+.number {
+	font-weight: bold; 
+}
 
-	background: linear-gradient(89.72deg, rgba(0, 0, 0, 0.4) 58.86%, rgba(0, 0, 0, 0) 99.87%);
+/*блок с предложением*/
+.blok_2 {
+
+	width: 1176px;
+	height: 736px;
+	background-color: silver;
+	background-image: url(foto.png);
 }
 
 .all {
-	position: absolute;
-	width: 354.01px;
-	height: 405.1px;
-	left: 440px;
-	top: 100px;
-
-	
+	padding-top: 200px;
+	padding-left: 150px;
 }
 
 .abonement {
-
-position: absolute;
-width: 400px;
-height: 31px;
-left: -304px;
-top: 100px;
-
-font-family: Oswald;
-font-style: normal;
-font-weight: normal;
-font-size: 35px;
-line-height: 52px;
-display: flex;
-align-items: center;
-
-color: #FFFFFF;
-
-transform: rotate(-0.03deg);
+	font-size: 30px;
 }
 
 .student {
-position: absolute;
-width: 354px;
-height: 88px;
-left: -304px;
-top: 150px;
-
-font-family: Oswald;
-font-style: normal;
-font-weight: 500;
-font-size: 100px;
-line-height: 74px;
-display: flex;
-align-items: center;
-
-color: #FFFFFF;
+	font-size: 80px;
+	font-weight: bold;
 }
 
 .price {
-position: absolute;
-width: 354px;
-height: 88px;
-left: -304px;
-top: 250px;
-
-font-family: Oswald;
-font-style: normal;
-font-weight: 500;
-font-size: 100px;
-line-height: 74px;
-display: flex;
-align-items: center;
-
-color: #FFFFFF;
+	padding-bottom: 70px;
 }
 
-
-.button {
-position: absolute;
-
-height: 72px;
-left: -304px;
-top: 400px;
-background: #1984CA;
-border-radius: 3px;
-
-font-family: Oswald;
-font-style: normal;
-font-weight: 500;
-font-size: 35px;
-line-height: 52px;
-display: flex;
-align-items: center;
-text-align: center;
-padding-left: 50px;
-padding-right: 50px;
-
-color: #FFFFFF;
+.summ {
+	font-size: 70px;
+	font-weight: bold;
 }
 
+.rub {
+	font-size: 30px;
+}
+
+/*кнопка*/
+a.button {
+  display: block;
+  width:200px;
+  height: 50px;
+  padding-top: 10px;
+  font-family: inherit;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  background: dodgerblue;
+}
+
+a.button:hover {
+  background-color: steelblue;
+}
